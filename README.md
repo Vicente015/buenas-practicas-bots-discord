@@ -13,7 +13,7 @@
   Limítese a una pequeña cantidad de prefijos para reducir el riesgo de coincidencias con otros.
 
 4. **No abuses de las menciones.** 
-  Si responde directamente a un comando, no use una mención, pueden crear bucles de respuestas. Las menciones están bien si se ejecuta un comando de larga duración, los mensajes privados son una buena alternativa.
+  Si responde directamente a un comando, no use una mención, pueden crear bucles de respuestas. Las menciones están bien si se ejecuta un comando de larga duración, los mensajes privados (MDs) son una buena alternativa.
 
 5. **Tenga un comando de `info/botinfo`.** 
   Debe proporcionar información sobre el bot, como qué librería está usando y la versión utilizada, comandos de ayuda (`help`) y, lo más importante, quién lo creó.
@@ -22,7 +22,7 @@
   Si un usuario usa un comando que no existe, déjelo fallar silenciosamente. No haga que responda con algo como "comando no válido". Aunque si el comando es correcto, pero los argumentos son incorrectos, entonces está bien responder con "argumentos no válidos". Si hay más de un bot en un servidor que comparte un prefijo, esto puede resultar en un uso muy desagradable. Si el prefijo de su bot es configurable, esta regla probablemente se pueda ignorar de manera segura.
 
 7. **Sea respetuoso con la API de Discord.**
-  Los bots que abusan y hacen mal uso de la API de Discord arruinan las cosas para todos. Respete los [Términos de servicio](https://discord.com/terms), las [Directivas de la comunidad](https://discord.com/guidelines) y [Política de privacidad para desarrolladores](https://discord.com/developers/docs/policy). Asegúrese de tener en cuenta la limitación de velocidad y la retirada en el código de su bot, y sea inteligente al usar la API. Asegúrese de pedir ayuda si no está seguro de la forma correcta de implementar las cosas. Recuerde añadir "tiempos de espera" o "intervalos" para evitar abusar de la API de Discord.
+  Los bots que abusan y hacen mal uso de la API de Discord arruinan las cosas para todos. Respete los [Términos de servicio](https://discord.com/terms), las [Directivas de la comunidad](https://discord.com/guidelines) y [Política de privacidad para desarrolladores](https://discord.com/developers/docs/policy). Asegúrese de tener en cuenta la limitación de solicitudes y de integrarlo en el código de su bot, y sea inteligente al usar la API. Asegúrese de pedir ayuda si no está seguro de la forma correcta de implementar las cosas. Recuerde añadir "tiempos de espera" o "intervalos" para evitar abusar de la API de Discord.
 
 8. **Ignore sus propios mensajes y los de otros bots.**
   Esto ayuda a prevenir bucles infinitos y posibles vulnerabilidades de seguridad. Usar un espacio "invisible" como `\u200B` y `\u180E` al comienzo de cada mensaje también evita que su bot active los comandos de otros bots. La API de Discord también le dice si un usuario es un bot (propiedad `bot` en el objeto `User`, [referencia](https://discord.com/developers/docs/resources/user#user-object)).
