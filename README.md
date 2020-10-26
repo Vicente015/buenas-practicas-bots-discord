@@ -1,5 +1,6 @@
 # Buenas prácticas para bots de Discord.
-*Este repositorio es básicamente un fork de [discord-bot-best-practices](https://github.com/meew0/discord-bot-best-practices/) pero traducido al Español y actualizado para seguir la [nueva política de privacidad para desarrolladores](https://discord.com/developers/docs/policy).
+*Este repositorio es básicamente un fork de [discord-bot-best-practices](https://github.com/meew0/discord-bot-best-practices/) pero traducido al Español y actualizado para seguir la [nueva política de privacidad para desarrolladores](https://discord.com/developers/docs/policy).*
+
 *Importante: Estas pautas están destinadas a bots en servidores públicos. Si su bot es privado seguramente no le sea aplicable.*
 
 1. **Los comanandos deben ser llamados explícitamente.** 
