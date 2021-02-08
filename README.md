@@ -1,8 +1,11 @@
-# Buenas prácticas para bots de Discord.
-*Este repositorio es básicamente un fork de [discord-bot-best-practices](https://github.com/meew0/discord-bot-best-practices/) pero traducido al Español y actualizado para seguir la [nueva política de privacidad para desarrolladores](https://discord.com/developers/docs/policy).*
+![Header](./header.png)
 
-*Importante: Estas pautas están destinadas a bots en servidores públicos. Si su bot es privado seguramente no le sea aplicable.*
+# 📜 Buenas prácticas para bots de Discord.
+> *Este repositorio es básicamente un fork de [discord-bot-best-practices](https://github.com/meew0/discord-bot-best-practices/) pero traducido al Español y actualizado para seguir la [nueva política de privacidad para desarrolladores](https://discord.com/developers/docs/policy).*
 
+**Importante:** Estas pautas están destinadas a bots en servidores públicos. Si su bot es privado seguramente no le sea aplicable.
+
+## 📏 Pautas
 1. **Los comandos deben ser llamados explícitamente.** 
     Los bots no deberían responder o ser llamados en un chat normal. Debe usar un prefijo para los comandos o solo responder cuando su bot es @mencionado.
 
@@ -47,4 +50,5 @@ Si bien es posible que el usuario no tenga permiso para mencionar a `@everyone`,
   Asegúrese de ser cuidadoso con los datos que recibe de la API de Discord. 
 De ninguna manera intente dirigirse a los usuarios para mostrar publicidad, vender datos de los usuarios, revelar datos sensibles de los usuarios sin su consentimiento, alentar o promover actividades ilegales. Y un largo etcétera que [puede consultar](https://discord.com/developers/docs/policy).
 
+## 🙌 Contribuir
 Si tiene alguna idea para agregar a estas pautas, abra un issue o una pull request para hablarlo.
